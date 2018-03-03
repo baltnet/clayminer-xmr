@@ -1,3 +1,9 @@
+clayminer-xmr (1.0.3) stable; urgency=medium
+
+  * Do not allow conflicting packages in the system
+
+ -- The Ranger <ranger@risk.ee>  Sat, 03 Mar 2018 21:16:55 +0200
+
 clayminer-xmr (1.0.2) stable; urgency=medium
 
   * Fix systemd service installation
