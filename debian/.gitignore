@@ -1,5 +1,6 @@
 *.log
 *-stamp
 *.substvars
+*.debhelper
 files
 clayminer-xmr
