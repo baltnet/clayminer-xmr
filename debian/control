@@ -10,5 +10,5 @@ Vcs-Browser: https://github.com/baltnet-communications/clayminer-xmr
 
 Package: clayminer-xmr
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libssl1.0.0
 Description: Claymore's XMR AMD GPU Miner
