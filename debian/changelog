@@ -1,3 +1,9 @@
+clayminer-xmr (1.0.2) stable; urgency=medium
+
+  * Fix systemd service installation
+
+ -- The Ranger <ranger@risk.ee>  Sat, 03 Mar 2018 21:03:35 +0200
+
 clayminer-xmr (1.0.1) stable; urgency=medium
 
   * Added libssl1.0.0 dependency

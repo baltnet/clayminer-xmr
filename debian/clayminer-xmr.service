@@ -5,3 +5,6 @@ After=network-online.target
 [Service]
 Environment='OPTS=-dbg -1'
 ExecStart=/opt/clayminer-xmr/nsgpucnminer $OPTS
+
+[Install]
+WantedBy=multi-user.target
