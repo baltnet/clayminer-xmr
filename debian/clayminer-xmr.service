@@ -3,5 +3,5 @@ Description=Claymore XMR AMD GPU Miner
 After=network-online.target
 
 [Service]
-Environment='OPTS='
+Environment='OPTS=-dbg -1'
 ExecStart=/opt/clayminer-xmr/nsgpucnminer $OPTS
