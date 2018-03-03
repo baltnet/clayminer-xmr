@@ -1,0 +1,7 @@
+[Unit]
+Description=Claymore XMR AMD GPU Miner
+After=network-online.target
+
+[Service]
+Environment='OPTS='
+ExecStart=/opt/clayminer-xmr/nsgpucnminer $OPTS

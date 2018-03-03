@@ -1,0 +1,6 @@
+clayminer-xmr (1.0.0) unstable; urgency=medium
+
+  * Initial release
+  * Using Claymore's XMR AMD GPU miner v10.2
+
+ -- The Ranger <ranger@risk.ee>  Sat, 03 Mar 2018 20:09:01 +0200
