@@ -1,3 +1,9 @@
+clayminer-xmr (1.0.4) stable; urgency=medium
+
+  * Use metapackage naming to detect conflicts between miners.
+
+ -- The Ranger <ranger@risk.ee>  Sun, 04 Mar 2018 15:03:40 +0200
+
 clayminer-xmr (1.0.3) stable; urgency=medium
 
   * Do not allow conflicting packages in the system

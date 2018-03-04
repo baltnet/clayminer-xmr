@@ -8,9 +8,10 @@ Homepage: https://github.com/nanopool/Claymore-XMR-Miner
 Vcs-Git: git@github.com:baltnet-communications/clayminer-xmr.git
 Vcs-Browser: https://github.com/baltnet-communications/clayminer-xmr
 
-Conflicts: clayminer-dual, ethminer, sgminer
-Replaces: clayminer-dual, ethminer, sgminer
 Package: clayminer-xmr
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, libssl1.0.0
+Conflicts: cryptominer-daemon
+Replaces: cryptominer-daemon
+Provides: cryptominer-daemon
 Description: Claymore's XMR AMD GPU Miner
